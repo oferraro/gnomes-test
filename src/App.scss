@@ -1,0 +1,18 @@
+.App {
+    padding: 25px;
+    .filter {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 22px;
+        input {
+            vertical-align: middle;
+        }
+    }
+    .with-pointer {
+        cursor: pointer;
+    }
+    .hidden {
+        display: none;
+    }
+}

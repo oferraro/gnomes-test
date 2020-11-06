@@ -1,0 +1,12 @@
+
+.gnome-card {
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  .gnome-pic {
+    max-height: 80px;
+  }
+}
