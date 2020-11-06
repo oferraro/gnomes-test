@@ -1,4 +1,7 @@
-## Scripts
+### Install node_modules / dependencies (run yarn command)
+`yarn` 
+
+### Scripts
 
 - Start the project
  

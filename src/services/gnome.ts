@@ -1,8 +1,9 @@
 
 class GnomeService {
+    dataUrl = `${window.location.href}data/data.json`; // TODO: for production, change this for the real URL
 
     getGnomes() {
-        return fetch(`${window.location.href}data/data.json`)
+        return fetch(this.dataUrl)
             .then(res => res.json())
     }
 
